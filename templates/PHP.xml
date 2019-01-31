@@ -97,4 +97,9 @@
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="dec" value="declare(strict_types=1);" description="Declare strict types" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

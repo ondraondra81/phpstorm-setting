@@ -116,7 +116,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="coldi" value="/**&#10; * @ORM\Column(type=&quot;datetime_immutable&quot;, nullable=$NULLABLE$)&#10; * @var \DateTimeImmutable&#10; */&#10;private $$$PROPERTY$;$END$" description="Column property DateTime" toReformat="true" toShortenFQNames="true">
+  <template name="coldi" value="/**&#10; * @ORM\Column(type=&quot;datetime_immutable&quot;, nullable=$NULLABLE$)&#10; * @var \DateTimeImmutable&#10; */&#10;private $$$PROPERTY$;$END$" description="Column property DateTimeImmutable" toReformat="true" toShortenFQNames="true">
     <variable name="NULLABLE" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="false" alwaysStopAt="true" />
     <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
