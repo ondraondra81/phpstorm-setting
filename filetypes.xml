@@ -1,0 +1,23 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping ext="phpt" type="PHP" />
+      <mapping pattern="old" type="PLAIN_TEXT" />
+      <mapping pattern="aaa" type="PLAIN_TEXT" />
+      <mapping pattern="bla" type="PLAIN_TEXT" />
+      <mapping pattern="blk" type="PLAIN_TEXT" />
+      <mapping pattern="_redirects" type="PLAIN_TEXT" />
+      <mapping pattern="Makefile" type="PLAIN_TEXT" />
+      <mapping pattern="Y+kL99ej+Y0QPbPOlpRj" type="PLAIN_TEXT" />
+      <mapping pattern="Vkcpxd69AlN7yXy0LIOi" type="PLAIN_TEXT" />
+      <mapping pattern="dasd" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="ReuploadDocumentApiAction" type="PLAIN_TEXT" />
+      <mapping ext="dev" type="PLAIN_TEXT" />
+      <mapping ext="alpine" type="PLAIN_TEXT" />
+      <mapping ext="dist" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

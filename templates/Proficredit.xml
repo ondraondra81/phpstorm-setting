@@ -1,0 +1,18 @@
+<templateSet group="Proficredit">
+  <template name="inda" value="/**&#10;     * @Rest\Post(&quot;$ROUTE$&quot;)&#10;     * @param Request $request&#10;     *&#10;     * @return Response&#10;     */&#10;    public function indexAction(Request $request): Response&#10;    {&#10;        return $this-&gt;baseIndexAction($request);&#10;    }" description="indexAction" toReformat="true" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="urou" value="use FOS\RestBundle\Controller\Annotations as Rest;" description="add FOSR routes" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dec" value="declare(strict_types=1);" description="Declare strict types" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
