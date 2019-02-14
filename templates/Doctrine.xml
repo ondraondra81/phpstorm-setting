@@ -100,7 +100,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="aca" value="    /**&#10;&#9; * @param $TYPE$ $$$NAME$&#10;&#9; * @return $this&#10;&#9; */&#10;&#9;public function add$METHOD_NAME$($TYPE$ $$$NAME$)&#10;&#9;{&#10;&#9;&#9;if(! $this-&gt;$NAME$s-&gt;contains($$$NAME$)){&#10;&#9;&#9;&#9;$this-&gt;$NAME$s[] = $$$NAME$;$END$&#10;&#9;&#9;}&#10;&#9;&#9;return $this;&#10;&#9;}" description="add array collection" toReformat="true" toShortenFQNames="true">
+  <template name="aca" value="    /**&#10;&#9; * @param $TYPE$ $$$NAME$&#10;&#9; * @return self&#10;&#9; */&#10;&#9;public function add$METHOD_NAME$($TYPE$ $$$NAME$): self&#10;&#9;{&#10;&#9;&#9;if(! $this-&gt;$NAME$s-&gt;contains($$$NAME$)){&#10;&#9;&#9;&#9;$this-&gt;$NAME$s[] = $$$NAME$;$END$&#10;&#9;&#9;}&#10;&#9;&#9;return $this;&#10;&#9;}" description="add array collection" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD_NAME" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="false" />
@@ -108,7 +108,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="acr" value="    /**&#10;&#9; * @param $TYPE$ $$$NAME$&#10;&#9; * @return $this&#10;&#9; */&#10;&#9;public function remove$METHOD_NAME$($TYPE$ $$$NAME$)&#10;&#9;{&#10;&#9;&#9;if($this-&gt;$NAME$s-&gt;contains($$$NAME$)){&#10;&#9;&#9;&#9;$this-&gt;$NAME$s-&gt;removeElement( $$$NAME$);$END$&#10;&#9;&#9;}&#10;&#9;&#9;return $this;&#10;&#9;}" description="array collection remove" toReformat="true" toShortenFQNames="true">
+  <template name="acr" value="    /**&#10;&#9; * @param $TYPE$ $$$NAME$&#10;&#9; * @return self&#10;&#9; */&#10;&#9;public function remove$METHOD_NAME$($TYPE$ $$$NAME$): self&#10;&#9;{&#10;&#9;&#9;if($this-&gt;$NAME$s-&gt;contains($$$NAME$)){&#10;&#9;&#9;&#9;$this-&gt;$NAME$s-&gt;removeElement( $$$NAME$);$END$&#10;&#9;&#9;}&#10;&#9;&#9;return $this;&#10;&#9;}" description="array collection remove" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="TYPE" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="METHOD_NAME" expression="capitalize(NAME)" defaultValue="" alwaysStopAt="false" />
