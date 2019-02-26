@@ -63,7 +63,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="qof" value="$this-&gt;filter[$KEY$] = function (QueryBuilder $qb) $IMPORT$ {&#10;&#9;$SELECTION$$END$&#10;};" description="QueryObject filter" toReformat="true" toShortenFQNames="true">
+  <template name="qof" value="$this-&gt;filters[$KEY$] = function (QueryBuilder $qb) $IMPORT$ {&#10;&#9;$SELECTION$$END$&#10;};" description="QueryObject filter" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="__FUNCTION__" alwaysStopAt="true" />
     <variable name="IMPORT" expression="" defaultValue="use ()" alwaysStopAt="true" />
     <context>
