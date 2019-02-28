@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="licenses" type="Markdown" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern="phpunit" type="PHP" />
       <mapping ext="phpt" type="PHP" />
