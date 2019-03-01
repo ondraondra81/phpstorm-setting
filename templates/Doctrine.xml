@@ -123,4 +123,9 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="orm" value="use Doctrine\ORM\Mapping as ORM;&#10;" description="add Mapping class as ORM to use" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
