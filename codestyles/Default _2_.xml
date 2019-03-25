@@ -96,11 +96,6 @@
       </rules>
     </arrangement>
   </codeStyleSettings>
-  <codeStyleSettings language="neon">
-    <indentOptions>
-      <option name="USE_TAB_CHARACTER" value="true" />
-    </indentOptions>
-  </codeStyleSettings>
   <codeStyleSettings language="yaml">
     <indentOptions>
       <option name="INDENT_SIZE" value="4" />
