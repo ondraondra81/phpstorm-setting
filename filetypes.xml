@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern="licenses" type="Markdown" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern="phpunit" type="PHP" />
@@ -19,8 +20,8 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="ReuploadDocumentApiAction" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
-      <mapping ext="alpine" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="alpine" type="PLAIN_TEXT" />
       <removed_mapping pattern="con" approved="true" type="PHP" />
       <removed_mapping pattern="console" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
