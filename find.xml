@@ -17,5 +17,6 @@
     <mask>*.yml</mask>
     <mask>*.js</mask>
     <mask>*.jsx</mask>
+    <mask>*.tpl</mask>
   </component>
 </application>
