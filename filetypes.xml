@@ -8,8 +8,6 @@
       <mapping pattern="licenses" type="Markdown" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern="phpunit" type="PHP" />
-      <mapping ext="phpt" type="PHP" />
-      <removed_mapping ext="phpt" type="PHPT" />
       <mapping pattern="Vkcpxd69AlN7yXy0LIOi" type="PLAIN_TEXT" />
       <mapping pattern="aaa" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
