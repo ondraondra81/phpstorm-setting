@@ -8,19 +8,23 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="f0d5bec0-0e8e-4872-9ced-a53c5ff55251" name="PHP 7.2" home="/usr/local/opt/php@7.2/bin/php" debugger_id="php.debugger.XDebug" />
-      <interpreter id="cb429cfe-684c-41c5-b80f-6ad849986d24" name="PHP 7.3" home="/usr/local/opt/php@7.3/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="cb429cfe-684c-41c5-b80f-6ad849986d24" name="PHP 7.3" home="/usr/local/Cellar/php/7.3.9/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.3">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.8/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.8/bin/php" path_separator=":" version="7.3.8">
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/7.3.9/bin/php-cgi" php_cli="/usr/local/Cellar/php/7.3.9/bin/php" path_separator=":" version="7.3.9">
           <additional_php_ini>/usr/local/etc/php/7.3/conf.d/ext-opcache.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.3/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.8/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.3.9/share/php/pear" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.2">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -80,6 +84,7 @@
             <extension name="tidy" />
             <extension name="tokenizer" />
             <extension name="wddx" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
