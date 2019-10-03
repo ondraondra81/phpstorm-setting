@@ -18,6 +18,7 @@
       <mapping pattern="Y+kL99ej+Y0QPbPOlpRj" type="PLAIN_TEXT" />
       <mapping pattern="ReuploadDocumentApiAction" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="legacy" type="PLAIN_TEXT" />
       <mapping ext="alpine" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
       <mapping ext="dev" type="PLAIN_TEXT" />
