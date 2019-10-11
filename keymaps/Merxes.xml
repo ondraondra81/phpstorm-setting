@@ -347,6 +347,9 @@
   <action id="Unsplit">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="Upsource.CreateOrShowDiscussion">
+    <keyboard-shortcut first-keystroke="ctrl alt minus" />
+  </action>
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
