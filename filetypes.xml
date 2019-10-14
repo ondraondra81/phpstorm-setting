@@ -9,6 +9,7 @@
       <mapping pattern="phpunit" type="PHP" />
       <mapping pattern="Vkcpxd69AlN7yXy0LIOi" type="PLAIN_TEXT" />
       <mapping pattern="aaa" type="PLAIN_TEXT" />
+      <mapping pattern="qqq" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="_redirects" type="PLAIN_TEXT" />
       <mapping pattern="blk" type="PLAIN_TEXT" />
