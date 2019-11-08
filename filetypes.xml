@@ -11,7 +11,6 @@
       <mapping pattern="Y+kL99ej+Y0QPbPOlpRj" type="PLAIN_TEXT" />
       <mapping pattern="Vkcpxd69AlN7yXy0LIOi" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern="yaml-lint" type="PLAIN_TEXT" />
       <mapping pattern="Configuration" type="PLAIN_TEXT" />
       <mapping pattern="ReuploadDocumentApiAction" type="PLAIN_TEXT" />
       <mapping ext="pub" type="PLAIN_TEXT" />
