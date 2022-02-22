@@ -127,7 +127,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="qb" value="$this-&gt;entityManager&#10;            -&gt;createQueryBuilder()&#10;            -&gt;from($ENTITY$, '$ALIAS$', '$ALIAS$.id')&#10;            -&gt;select('$ALIAS$');" toReformat="false" toShortenFQNames="true">
+  <template name="qb" value="$this-&gt;entityManager&#10;            -&gt;createQueryBuilder()&#10;            -&gt;from($ENTITY$, '$ALIAS$', '$ALIAS$.id')&#10;            -&gt;select('$ALIAS$');" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ENTITY" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
     <variable name="ALIAS" expression="snakeCase(substringBefore(ENTITY, &quot;::&quot;))" defaultValue="" alwaysStopAt="false" />
     <context>
