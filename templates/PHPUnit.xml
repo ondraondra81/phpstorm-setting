@@ -1,0 +1,8 @@
+<templateSet group="PHPUnit">
+  <template name="test" value="public function test$NAME$(): void&#10;{&#10;    $END$&#10;}" description="test function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,63 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="Vcs.Push" is_action="true" action_type="-1" position="5">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="NavBarVcsGroup" />
+      <path value="VcsNavBarToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Merge" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="MainToolBarSettings" />
+      <path value="VCS Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Pull" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="MainToolBarSettings" />
+      <path value="VCS Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Fetch" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <path value="Optional Actions" />
+      <path value="VcsTouchBarGroup" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Vcs.Push" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="NavBarVcsGroup" />
+      <path value="VcsNavBarToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Fetch" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="MainToolBarSettings" />
+      <path value="VCS Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Fetch" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="NavBarVcsGroup" />
+      <path value="VcsNavBarToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Git.Pull" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Navigation Bar Toolbar" />
+      <path value="NavBarVcsGroup" />
+      <path value="VcsNavBarToolbarActions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="Git.Pull" icon="$USER_HOME$/Documents/git_pull.png" />
+    <action id="Git.Fetch" icon="$USER_HOME$/Documents/git_fetch_symc.png" />
+  </component>
+</application>
