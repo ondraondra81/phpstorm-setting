@@ -1,9 +1,0 @@
-<application>
-  <component name="WebServers">
-    <option name="servers">
-      <webServer id="533c5cf5-61b0-4a85-93c0-3d2ffe8222a8" name="Ondravotava.cz" url="http://ondravotava.test">
-        <fileTransfer port="0" accessType="LOCAL" />
-      </webServer>
-    </option>
-  </component>
-</application>
