@@ -2,10 +2,12 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern="yaml-lint" type="AUTO_DETECTED" />
+      <mapping pattern="root" type="AUTO_DETECTED" />
       <mapping pattern="bls" type="AUTO_DETECTED" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="init" type="Shell Script" />
       <mapping pattern="cacheclear" type="Shell Script" />
       <mapping pattern="sshd_config" type="SmartyConfig" />
@@ -13,28 +15,48 @@
       <mapping pattern="*.yaml.dist" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="local" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="local" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="ANSI Aware" />
+      <removed_mapping ext="log" approved="true" type="ANSI Aware" />
+      <removed_mapping ext="monitoring" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="monitoring" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="pem" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="pem" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="phpt" approved="true" type="PHPT" />
+      <removed_mapping ext="phpt" approved="true" type="PHPT" />
+      <removed_mapping ext="prod" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="prod" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rules" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="rules" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".eslintignore" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".eslintignore" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".gitmodules" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".gitmodules" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".jshintignore" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".jshintignore" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".node-version" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".node-version" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".npmignore" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".npmignore" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".npmrc" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".npmrc" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".nvmrc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".nvmrc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".stylelintignore" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".stylelintignore" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".tags.dev" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".tags.dev" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".tests.dev" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".tests.dev" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".yarnrc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".yarnrc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="root" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="root" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="sshd_config" approved="true" type="AUTO_DETECTED" />
-      <mapping ext="plantuml" type="PlantUML file" />
+      <removed_mapping pattern="sshd_config" approved="true" type="AUTO_DETECTED" />
     </extensionMap>
   </component>
 </application>
