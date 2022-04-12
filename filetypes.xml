@@ -15,13 +15,13 @@
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="local" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="monitoring" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="pem" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="phpt" approved="true" type="PHPT" />
       <removed_mapping ext="prod" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="psd" approved="true" type="Image" />
-      <removed_mapping ext="rules" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".eslintignore" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".gitmodules" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".jshintignore" approved="true" type="PLAIN_TEXT" />
