@@ -1,7 +1,6 @@
 <templateSet group="PHP">
   <template name="thr" value="throw new $CLASS$;" description="throw new" toReformat="true" toShortenFQNames="true">
     <variable name="CLASS" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="try" value="try {&#10;&#9;$SELECTION$&#10;    $END$&#10;} catch ($EXCEPTION_TYPE$ $exception) {&#10;&#9;&#10;}&#10;" description="try {} catch () {}" toReformat="true" toShortenFQNames="true">
     <variable name="EXCEPTION_TYPE" expression="classNameComplete()" defaultValue="Throwable" alwaysStopAt="true" />
@@ -46,13 +45,11 @@
   <template name="fore" value="foreach ($SELECTION$ as $$$VAR_VALUE$) {&#10;    $END$&#10;}&#10;" description="foreach(iterable_expr as $value) {...}" toReformat="true" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="forek" value="foreach ($SELECTION$ as $$$VAR_KEY$ =&gt; $$$VAR_VALUE$) {&#10;    $END$&#10;}&#10;" description="foreach(iterable_expr as $key =&gt; $value) {...}" toReformat="true" toShortenFQNames="true">
     <variable name="SELECTION" expression="" defaultValue="" alwaysStopAt="false" />
     <variable name="VAR_KEY" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="ob" value="ob_start();&#10;$SELECTION$&#10;$END_FN$();$END$" description="output buffering" toReformat="false" toShortenFQNames="true">
     <variable name="END_FN" expression="enum(&quot;ob_get_clean&quot;, &quot;ob_get_contents&quot;, &quot;ob_get_flush&quot;, &quot;ob_end_flush&quot;, &quot;ob_end_clean&quot;)" defaultValue="ob_get_clean" alwaysStopAt="true" />
@@ -75,27 +72,22 @@
   <template name="pubf" value="public function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="prof" value="protected function $NAME$($PARAMETERS${&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="prosf" value="protected static function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="protected static function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="prif" value="private function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="prisf" value="private static function $NAME$($PARAMETERS$)&#10;{&#10;    $END$&#10;}" description="private static function" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="cons" value="public const $END$" description="create public constant" toReformat="false" toShortenFQNames="true">
     <context>
