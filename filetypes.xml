@@ -10,7 +10,6 @@
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping pattern="init" type="Shell Script" />
       <mapping pattern="cacheclear" type="Shell Script" />
-      <mapping pattern="sshd_config" type="SmartyConfig" />
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
@@ -37,6 +36,7 @@
       <removed_mapping pattern="root" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="sshd_config" approved="true" type="AUTO_DETECTED" />
       <mapping ext="plantuml" type="PlantUML file" />
+      <mapping pattern="sshd_config" type="SmartyConfig" />
     </extensionMap>
   </component>
 </application>
