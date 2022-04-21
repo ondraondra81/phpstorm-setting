@@ -41,9 +41,9 @@
     <variable name="ACCESS" expression="enum(&quot;private&quot;,&quot;protected&quot;)" defaultValue="private" alwaysStopAt="true" />
     <variable name="DOCTRINE_TYPE" expression="enum(&quot;string&quot;, &quot;integer&quot;, &quot;boolean&quot;,  &quot;datetime_immutable&quot;, &quot;text&quot;, &quot;object&quot;, &quot;array&quot;, &quot;json_serializable&quot;, &quot;json&quot;, &quot;float&quot;, &quot;guid&quot;, &quot;blob&quot;)" defaultValue="string" alwaysStopAt="true" />
     <variable name="NULLABLE" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="true" alwaysStopAt="true" />
-    <variable name="NULL" expression="groovyScript(&quot;return _1 == 'false' ? '|null' : ''&quot;, NULLABLE)" defaultValue="" alwaysStopAt="false" />
+    <variable name="NULL" expression="groovyScript(&quot;return _1 == 'true' ? '|null' : ''&quot;, NULLABLE)" defaultValue="" alwaysStopAt="false" />
     <variable name="TYPE" expression="groovyScript(&quot;if(_1 == 'integer'){return 'int'}; if(_1 == 'json') {return 'array'}; if (_1 == 'text'){return 'string'}; if(_1 == 'boolean') {return 'bool'}; if(_1 == 'decimal') {return 'float'}; if(_1 == 'json_serializable' || _1 == 'collection') {return}; return _1&quot;,  DOCTRINE_TYPE)" defaultValue="" alwaysStopAt="false" />
-    <variable name="NULLTYPE" expression="groovyScript(&quot;return _1 == 'false' ? '?' : ''&quot;, NULLABLE)" defaultValue="" alwaysStopAt="false" />
+    <variable name="NULLTYPE" expression="groovyScript(&quot;return _1 == 'true' ? '?' : ''&quot;, NULLABLE)" defaultValue="" alwaysStopAt="false" />
     <variable name="PROPERTY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
