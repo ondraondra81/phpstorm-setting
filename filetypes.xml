@@ -6,7 +6,6 @@
       <mapping pattern="root" type="AUTO_DETECTED" />
       <mapping pattern="bls" type="AUTO_DETECTED" />
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
-      <mapping pattern=".prettierrc" type="JSON" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
